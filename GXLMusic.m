@@ -6,9 +6,9 @@
 //  Copyright © 2015年 王志盼. All rights reserved.
 //
 
-#import "ZYMusic.h"
+#import "GXLMusic.h"
 
-@implementation ZYMusic
+@implementation GXLMusic
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     if (self = [super init]) {
         self.name = [aDecoder decodeObjectForKey:@"name"];
@@ -28,7 +28,7 @@
     [aCoder encodeObject:self.lrcname forKey:@"lrcname"];
     [aCoder encodeObject:self.count forKey:@"count"];
 }
-- (void)saveData:(ZYMusic*)model {
+- (void)saveData:(GXLMusic*)model {
     NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"Musics" ofType:@"plist"];
     [NSKeyedArchiver archiveRootObject:model toFile:plistPath];
 }

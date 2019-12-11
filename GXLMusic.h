@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ZYMusic : NSObject<NSCoding>
+@interface GXLMusic : NSObject<NSCoding>
 /**
  *  歌曲名字
  */
@@ -43,5 +43,5 @@
 
 @property (assign, nonatomic, getter = isPlaying) BOOL playing;
 
-- (void)saveData:(ZYMusic*)model;
+- (void)saveData:(GXLMusic*)model;
 @end
