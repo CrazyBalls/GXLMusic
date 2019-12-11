@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
   
   spec.name         = "GXLMusic"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "First commit git pesc."
 
 
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 
 
   spec.author             = { "GXL" => "326676300@qq.com" }
-  spec.source       = { :git => "https://github.com/CrazyBalls/GXLMusic.git", :tag => "0.0.1" }
+  spec.source       = { :git => "https://github.com/CrazyBalls/GXLMusic.git", :tag => "0.0.2" }
 
 
   
